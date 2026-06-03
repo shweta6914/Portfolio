@@ -111,11 +111,13 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
   {/* Dark Mode Icon */}
   <button onClick={() => setIsDarkMode((prev) => !prev)}>
-    <img
-    src="/moon.png"
-    alt="moon"
-    className="w-6 h-6"
-  />
+    <Image
+  src={assets.moon_icon}
+  alt="moon"
+  width={24}
+  height={24}
+  className="w-6 h-auto"
+/>
 </button>
 
 
